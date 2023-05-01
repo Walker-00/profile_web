@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+  background-image: url("../images/f204c3f8fb909c80e8b70e82e9b4da8b.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wrapper{
+    width: 25%;
+  height: 90vh;
+    position: absolute;
+  margin-left: 3vw;
+    top: 10%;
+}
+
+.wrapper2{
+    width: 25%;
+  height: 90vh;
+    position: absolute;
+    left: 70vw;
+    top: 10%;
+}
+
+.container{
+    width: 100%;
+  height: 75%;
+    padding: 5%;
+    background-color: rgba(255,255,255,0.06);
+    border: 2px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+
+.container2{
+    width: 100%;
+  height: 75%;
+    padding: 5%;
+    background-color: rgba(255,255,255,0.06);
+    border: 2px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+
+.container2 *{
+    font-family: "Poppins",sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.container *{
+    font-family: "Poppins",sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+}
+h2{
+    margin-bottom: 5%;
+    letter-spacing: 5%;
+}
+.skills:not(:last-child){
+    margin-bottom: 3vh;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    position: relative;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+.bar div{
+    position: absolute;
+    width: 0;
+    height: 5%;
+    border-radius: 10px;
+    background-color: cyan;
+    border: 1px solid #1c97fc;
+    box-shadow: 0 0 5px rgba(28,151,252,0.6);
+}
+
+.boxes {
+  width: 100%;
+  height: 100%;
+}
+
+#rust-bar{
+    animation: rust-fill 2s forwards;
+}
+@keyframes rust-fill {
+    100%{
+        width: 90%;
+    }
+}
+#python-bar{
+    animation: python-fill 2s forwards;
+}
+@keyframes python-fill{
+    100%{
+        width: 50%;
+    }
+}
+#c-bar{
+    animation: c-fill 2s forwards;
+}
+@keyframes c-fill {
+    100%{
+        width: 70%;
+    }
+}
+#js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill{
+    100%{
+        width: 40%;
+    }
+}
+
+#linux-bar{
+    animation: linux-fill 2s forwards;
+}
+@keyframes linux-fill {
+    100%{
+        width: 90%;
+    }
+}
+#e-bar{
+    animation: embedded-fill 2s forwards;
+}
+@keyframes embedded-fill{
+    100%{
+        width: 60%;
+    }
+}
+#backend-bar{
+    animation: backend-fill 2s forwards;
+}
+@keyframes backend-fill {
+    100%{
+        width: 50%;
+    }
+}
+#desktop-bar{
+    animation: desktop-fill 2s forwards;
+}
+@keyframes desktop-fill{
+    100%{
+        width: 40%;
+    }
+}

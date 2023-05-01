@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="assets/css/trivia_styles.css" rel="stylesheet">
+  <title>Trivia!</title>
+  <script src="assets/js/trivia_script.js"></script>
+  <link rel="icon" type="image/x-icon" href="assets/images/idk_bruh.gif">
+</head>
+
+<body>
+  <div class="header">
+    <h1>Trivia!</h1>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <h2>Part 1: Multiple Choice </h2>
+      <hr>
+      <div id="question"></div>
+      <div class="choice-container">
+        <button class="choice" data-number="1"></button>
+        <button class="choice" data-number="2"></button>
+        <button class="choice" data-number="3"></button>
+      </div>
+      <div id="feedback"></div>
+      <div class="score-container">
+        Score: <span id="score">0</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Part 2: Free Response</h2>
+      <hr>
+      <div class="question-container">
+        <label for="answer-input">Do You Love Linus Walker?</label><br>
+        <input type="text" id="answer-input">
+      </div><br>
+      <div class="submit-container">
+        <button id="confirm-btn">Submit</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

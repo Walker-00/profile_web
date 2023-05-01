@@ -1,0 +1,71 @@
+:root {
+    --color-primary: #477bff;
+    --color-secondary: #d9edff;
+    --color-text: #212529;
+    --font-family: 'Montserrat', sans-serif;
+    --font-size-base: 1rem;
+    --line-height-base: 1.5;
+    --padding-base: 15px;
+  }
+
+  body {
+    background-color: #fff;
+    color: var(--color-text);
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    line-height: var(--line-height-base);
+    margin: 0;
+    text-align: left;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 0 var(--padding-base);
+  }
+
+  .header {
+    background-color: var(--color-primary);
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .section {
+    padding: var(--padding-base) 2rem calc(var(--padding-base) * 2) 2rem;
+  }
+
+  .section:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+  }
+
+  h1 {
+    font-family: var(--font-family);
+    font-size: 48px;
+  }
+
+  button,
+  input[type="submit"] {
+    background-color: var(--color-secondary);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: var(--line-height-base);
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+  }
+
+  input[type="text"] {
+    line-height: var(--line-height-base);
+    width: 25%;
+  }
+
+  input[type="text"]:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+  }
+
